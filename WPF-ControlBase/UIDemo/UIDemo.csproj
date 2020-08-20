@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Snail.Base.WpfBase\Snail.Base.WpfBase.csproj">
+      <Project>{1a9cbb11-ba88-4fd2-8c7a-3cb6320e8a15}</Project>
+      <Name>Snail.Base.WpfBase</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

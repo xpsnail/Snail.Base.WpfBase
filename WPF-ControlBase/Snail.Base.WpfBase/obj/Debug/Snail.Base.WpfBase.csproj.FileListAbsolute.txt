@@ -1,0 +1,14 @@
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\bin\Debug\Snail.Base.WpfBase.exe.config
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\bin\Debug\Snail.Base.WpfBase.exe
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\bin\Debug\Snail.Base.WpfBase.pdb
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\MainWindow.g.cs
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\App.g.cs
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase_MarkupCompile.cache
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase_MarkupCompile.lref
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\MainWindow.baml
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.g.resources
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.Properties.Resources.resources
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.csproj.GenerateResource.cache
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.csproj.CoreCompileInputs.cache
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.exe
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.pdb

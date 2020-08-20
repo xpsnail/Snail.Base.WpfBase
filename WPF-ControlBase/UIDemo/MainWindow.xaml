@@ -4,7 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UIDemo"
-        xmlns:System="clr-namespace:System;assembly=mscorlib"        
+        xmlns:System="clr-namespace:System;assembly=mscorlib"      
+        xmlns:snailPanel="clr-namespace:Snail.Base.WpfBase.Controls.Panels;assembly=Snail.Base.WpfBase"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <!--虚线滚动效果-->
@@ -23,7 +24,11 @@
     </Window.Triggers>
 
     <Grid x:Name="LayoutRoot">
-        <Grid Margin="125,0,291,68" VerticalAlignment="Bottom" Height="150">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="157*"/>
+            <RowDefinition Height="262*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="182,0,234,3" VerticalAlignment="Bottom" Height="150">
             <Rectangle Fill="{x:Null}" Stroke="#FF000000" StrokeDashCap="Square" StrokeDashOffset="100" RadiusX="50" RadiusY="50" ClipToBounds="True"
                        StrokeEndLineCap="Square" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeThickness="5" x:Name="rectangle">
                 <Rectangle.StrokeDashArray>
@@ -41,5 +46,12 @@
             </Rectangle>
             <!--<Button Margin="2,2,2,2" Content="Button" FocusVisualStyle="{x:Null}"/>-->
         </Grid>
+        <snailPanel:MyStackPanelCtrl Orientation="RightToLeft" Grid.Row="1">
+            <Button>btn1</Button>
+            <Button>btn2</Button>
+            <Button>btn3</Button>
+            <Button>btn4</Button>
+        </snailPanel:MyStackPanelCtrl>
+        
     </Grid>
 </Window>
