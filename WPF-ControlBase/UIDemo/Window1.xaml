@@ -13,12 +13,12 @@
             <RowDefinition Height="87*"/>
             <RowDefinition Height="332*"/>
         </Grid.RowDefinitions>
-        <snail:MyStackPanelCtrl Orientation="RightToLeft">
-            <Button Click="Button_Click">btn1</Button>
-            <Button Click="Button_Click_1">btn2</Button>
-            <Button Click="Button_Click_2">btn3</Button>
+        <snail:MyStackPanelCtrl > 
+            <Button Click="Button_Click" >btn1</Button>
+            <Button Width="30" Name="btn2" Click="Button_Click" >btn2</Button>
+            <Button Click="Button_Click">btn3</Button>
         </snail:MyStackPanelCtrl>
 
-        <uc:CardViews x:Name="cardView" Grid.Row="1"></uc:CardViews>
+        <uc:CardViews x:Name="cardView" Grid.Row="1" DeleteInfo="cardView_DeleteInfo"></uc:CardViews>
     </Grid>
 </Window>

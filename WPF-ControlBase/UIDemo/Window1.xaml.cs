@@ -26,19 +26,16 @@ namespace UIDemo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            cardView.strCondition = "1";
+            cardView.strCondition = ((Button)sender).Content.ToString();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+         
+
+        private void cardView_DeleteInfo(object sender, RoutedEventArgs e)
         {
-            cardView.strCondition = "2";
-
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            cardView.strCondition = "3";
-
+            btn2.Width = btn2.Width + 20;
+            btn2.Content = "click btn2: " + btn2.Width;
+            //MessageBox.Show("click");
         }
     }
 }

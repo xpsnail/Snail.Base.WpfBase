@@ -26,8 +26,8 @@ namespace UIDemo.UserControlViews
             this.DataContext = this;
         }
 
-        //依赖项属性
 
+        #region 依赖项属性
 
         public string strCondition
         {
@@ -49,6 +49,38 @@ namespace UIDemo.UserControlViews
         private static bool callback(object value)
         {
             return true;
+        }
+        #endregion
+
+
+        #region 自定义路由事件
+        /// <summary>
+        /// The delete event
+        /// </summary>
+        public static readonly RoutedEvent deleteEvent =
+             EventManager.RegisterRoutedEvent("DeleteInfo", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(CardViews));
+
+        /// <summary>
+        /// 删除该控件的操作.
+        /// </summary>
+        public event RoutedEventHandler DeleteInfo
+        {
+            add
+            {
+                AddHandler(deleteEvent, value);
+            }
+
+            remove
+            {
+                RemoveHandler(deleteEvent, value);
+            }
+        }
+        #endregion
+
+        private void btnDelete(object sender, MouseButtonEventArgs e)
+        {
+            RoutedEventArgs args = new RoutedEventArgs(deleteEvent, this);
+            RaiseEvent(args);
         }
     }
 }
