@@ -12,4 +12,3 @@ E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\De
 E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.csproj.CoreCompileInputs.cache
 E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.exe
 E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.pdb
-E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\Snail.Base.WpfBase\obj\Debug\Snail.Base.WpfBase.csprojAssemblyReference.cache
