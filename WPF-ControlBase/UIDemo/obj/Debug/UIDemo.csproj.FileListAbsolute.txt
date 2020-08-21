@@ -17,3 +17,8 @@ E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\UIDemo.c
 E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\UIDemo.csproj.CopyComplete
 E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\UIDemo.exe
 E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\UIDemo.pdb
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\UserControlViews\CardViews.g.cs
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\Window1.g.cs
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\UserControlViews\CardViews.baml
+E:\苏永亮\MyWork\Snail.Base.WpfBase\WPF-ControlBase\UIDemo\obj\Debug\Window1.baml
