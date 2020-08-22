@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Snail.Base.WpfBase.Controls.Panels;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -29,6 +30,7 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
+using UIDemo;
 using UIDemo.UserControlViews;
 
 
