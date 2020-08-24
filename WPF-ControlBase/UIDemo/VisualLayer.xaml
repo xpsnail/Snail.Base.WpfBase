@@ -1,0 +1,29 @@
+﻿<Window x:Class="UIDemo.VisualLayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIDemo"
+        xmlns:snailPanel="clr-namespace:Snail.Base.WpfBase.Controls.Panels;assembly=Snail.Base.WpfBase"
+        mc:Ignorable="d"
+        Title="VisualLayer" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="drawType" SelectedIndex="0">
+            <ListBoxItem>添加矩形</ListBoxItem>
+            <ListBoxItem>添加文本</ListBoxItem>
+            <ListBoxItem>选择</ListBoxItem>
+            <ListBoxItem>删除</ListBoxItem>
+            <ListBoxItem>装饰</ListBoxItem>
+        </ListBox>
+        
+        <snailPanel:DrawingCanvas Grid.Column="1" Margin="3" Name="drawingSurface" Background="White" ClipToBounds="True"
+                                  MouseLeftButtonDown="drawingSurface_MouseLeftButtonDown" MouseLeftButtonUp="drawingSurface_MouseLeftButtonUp"
+                                  MouseMove="drawingSurface_MouseMove" MouseLeave="drawingSurface_MouseLeave"></snailPanel:DrawingCanvas>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Name="txtBlock" Grid.Column="1">12345589</TextBlock>
+        
+    </Grid>
+</Window>

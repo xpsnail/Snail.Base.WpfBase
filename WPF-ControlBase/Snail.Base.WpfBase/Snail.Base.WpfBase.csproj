@@ -63,7 +63,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Controls\Panels\DrawingCanvas.cs" />
     <Compile Include="Controls\Panels\MyStackPanelCtrl.cs" />
+    <Compile Include="Decorators\FocusAdorner.cs" />
     <Compile Include="Helpers\DispatcherHelper.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

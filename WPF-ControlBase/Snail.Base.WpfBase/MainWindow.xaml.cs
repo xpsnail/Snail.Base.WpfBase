@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,21 @@ namespace Snail.Base.WpfBase
         public MainWindow()
         {
             InitializeComponent();
+             
+
+        }
+
+        private bool DrivesExit()
+        {
+            string[] drives = Directory.GetLogicalDrives();
+            foreach (var item in drives)
+            {
+                if (item.ToUpper() == @"D:\")
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
